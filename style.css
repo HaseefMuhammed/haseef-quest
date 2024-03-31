@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+
+.heading{
+    font-family: "Workbench", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 5em;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+    letter-spacing: 7px;
+}
+.slogen{
+    font-family: "Courgette", cursive;
+    font-style: normal;
+}
+
+/* Search bar from bb */
+   
+
+   .search{
+   position: relative;
+   box-shadow: 0 0 40px rgba(255, 255, 255, 0.137);
+     
+   }
+
+   .search input{
+
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+
+
+   }
+
+
+   .search input:focus{
+
+    box-shadow: none;
+
+
+   }
+
+   .search .fa-google{
+
+    position: absolute;
+    top: 20px;
+    left: 16px;
+
+   }
+
+   .search button{
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+
+   }
+   .icon{
+    width: 5em;
+    border-radius: 50%;
+    border: 2px solid white;
+   }
+   #slogen2{
+    /* font-family: cursive;
+    font-style: normal;
+    font-size: 2em; */
+
+    text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #05eaff 0%,
+    #ffffff 29%,
+    #ff1361 67%,
+    #11de29 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+      font-size: 2em;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
